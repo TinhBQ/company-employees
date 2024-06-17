@@ -1,0 +1,17 @@
+D:\Workspace\dotnet-asp\CompanyEmployees\Service.Contracts\bin\Debug\net8.0\Service.Contracts.deps.json
+D:\Workspace\dotnet-asp\CompanyEmployees\Service.Contracts\bin\Debug\net8.0\Service.Contracts.dll
+D:\Workspace\dotnet-asp\CompanyEmployees\Service.Contracts\bin\Debug\net8.0\Service.Contracts.pdb
+D:\Workspace\dotnet-asp\CompanyEmployees\Service.Contracts\obj\Debug\net8.0\Service.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspace\dotnet-asp\CompanyEmployees\Service.Contracts\obj\Debug\net8.0\Service.Contracts.AssemblyInfoInputs.cache
+D:\Workspace\dotnet-asp\CompanyEmployees\Service.Contracts\obj\Debug\net8.0\Service.Contracts.AssemblyInfo.cs
+D:\Workspace\dotnet-asp\CompanyEmployees\Service.Contracts\obj\Debug\net8.0\Service.Contracts.csproj.CoreCompileInputs.cache
+D:\Workspace\dotnet-asp\CompanyEmployees\Service.Contracts\obj\Debug\net8.0\Service.Contracts.dll
+D:\Workspace\dotnet-asp\CompanyEmployees\Service.Contracts\obj\Debug\net8.0\refint\Service.Contracts.dll
+D:\Workspace\dotnet-asp\CompanyEmployees\Service.Contracts\obj\Debug\net8.0\Service.Contracts.pdb
+D:\Workspace\dotnet-asp\CompanyEmployees\Service.Contracts\obj\Debug\net8.0\ref\Service.Contracts.dll
+D:\Workspace\dotnet-asp\CompanyEmployees\Service.Contracts\bin\Debug\net8.0\Entities.dll
+D:\Workspace\dotnet-asp\CompanyEmployees\Service.Contracts\bin\Debug\net8.0\Entities.pdb
+D:\Workspace\dotnet-asp\CompanyEmployees\Service.Contracts\obj\Debug\net8.0\Service.Contracts.csproj.AssemblyReference.cache
+D:\Workspace\dotnet-asp\CompanyEmployees\Service.Contracts\obj\Debug\net8.0\Service.Contracts.csproj.CopyComplete
+D:\Workspace\dotnet-asp\CompanyEmployees\Service.Contracts\bin\Debug\net8.0\Shared.dll
+D:\Workspace\dotnet-asp\CompanyEmployees\Service.Contracts\bin\Debug\net8.0\Shared.pdb

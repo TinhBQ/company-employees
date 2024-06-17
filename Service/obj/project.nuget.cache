@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "QVoExuGvht8ok/3vLz6OwNgydj0NBsTlHB3pF8Cr5FrbNAcv066uVF11kIJo1aCEaDDVFG0Zu4ejDfj9m3964w==",
+  "success": true,
+  "projectFilePath": "D:\\Workspace\\dotnet-asp\\CompanyEmployees\\Service\\Service.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tinhb\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\tinhb\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "C:\\Users\\tinhb\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\tinhb\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\tinhb\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\tinhb\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\tinhb\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

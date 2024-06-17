@@ -1,0 +1,12 @@
+D:\Workspace\dotnet-asp\CompanyEmployees\ActionFilters\bin\Debug\net8.0\ActionFilters.deps.json
+D:\Workspace\dotnet-asp\CompanyEmployees\ActionFilters\bin\Debug\net8.0\ActionFilters.dll
+D:\Workspace\dotnet-asp\CompanyEmployees\ActionFilters\bin\Debug\net8.0\ActionFilters.pdb
+D:\Workspace\dotnet-asp\CompanyEmployees\ActionFilters\obj\Debug\net8.0\ActionFilters.csproj.AssemblyReference.cache
+D:\Workspace\dotnet-asp\CompanyEmployees\ActionFilters\obj\Debug\net8.0\ActionFilters.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspace\dotnet-asp\CompanyEmployees\ActionFilters\obj\Debug\net8.0\ActionFilters.AssemblyInfoInputs.cache
+D:\Workspace\dotnet-asp\CompanyEmployees\ActionFilters\obj\Debug\net8.0\ActionFilters.AssemblyInfo.cs
+D:\Workspace\dotnet-asp\CompanyEmployees\ActionFilters\obj\Debug\net8.0\ActionFilters.csproj.CoreCompileInputs.cache
+D:\Workspace\dotnet-asp\CompanyEmployees\ActionFilters\obj\Debug\net8.0\ActionFilters.dll
+D:\Workspace\dotnet-asp\CompanyEmployees\ActionFilters\obj\Debug\net8.0\refint\ActionFilters.dll
+D:\Workspace\dotnet-asp\CompanyEmployees\ActionFilters\obj\Debug\net8.0\ActionFilters.pdb
+D:\Workspace\dotnet-asp\CompanyEmployees\ActionFilters\obj\Debug\net8.0\ref\ActionFilters.dll

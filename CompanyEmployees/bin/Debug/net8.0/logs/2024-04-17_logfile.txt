@@ -1,0 +1,254 @@
+2024-04-17 13:19:42.1792 INFO Here is info message from our values controller.
+2024-04-17 13:19:42.2031 DEBUG Here is debug message from our values controller.
+2024-04-17 13:19:42.2031 WARN Here is warn message from our values controller.
+2024-04-17 13:19:42.2031 ERROR Here is an error message from our values controller.
+2024-04-17 14:03:24.5466 INFO Here is info message from our values controller.
+2024-04-17 14:03:24.5940 DEBUG Here is debug message from our values controller.
+2024-04-17 14:03:24.5940 WARN Here is warn message from our values controller.
+2024-04-17 14:03:24.5940 ERROR Here is an error message from our values controller.
+2024-04-17 14:13:49.0998 INFO Here is info message from our values controller.
+2024-04-17 14:13:49.1283 DEBUG Here is debug message from our values controller.
+2024-04-17 14:13:49.1283 WARN Here is warn message from our values controller.
+2024-04-17 14:13:49.1283 ERROR Here is an error message from our values controller.
+2024-04-17 14:13:57.7494 ERROR Something went wrong in the GetAllCompanies service method AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[Entities.Models.Company, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Shared.DataTransferObjects.CompanyDto, Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> System.ArgumentException: Shared.DataTransferObjects.CompanyDto needs to have a constructor with 0 args or only optional args. Validate your configuration for details. (Parameter 'type')
+   at lambda_method29(Closure, Object, IEnumerable`1, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method29(Closure, Object, IEnumerable`1, ResolutionContext)
+   at Service.CompanyService.GetAllCompanies(Boolean trackChanges) in D:\Workspace\dotnet-asp\CompanyEmployees\Service\CompanyService.cs:line 32
+2024-04-17 14:16:15.4048 INFO Here is info message from our values controller.
+2024-04-17 14:16:15.4232 DEBUG Here is debug message from our values controller.
+2024-04-17 14:16:15.4232 WARN Here is warn message from our values controller.
+2024-04-17 14:16:15.4232 ERROR Here is an error message from our values controller.
+2024-04-17 15:15:52.7798 INFO Here is info message from our values controller.
+2024-04-17 15:15:52.7950 DEBUG Here is debug message from our values controller.
+2024-04-17 15:15:52.7950 WARN Here is warn message from our values controller.
+2024-04-17 15:15:52.7950 ERROR Here is an error message from our values controller.
+2024-04-17 15:16:05.3953 ERROR Something went wrong: System.Exception: Exception
+   at CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies() in D:\Workspace\dotnet-asp\CompanyEmployees\CompanyEmployees.Presentation\Controllers\CompaniesController.cs:line 21
+   at lambda_method4(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-04-17 16:05:31.3282 INFO Here is info message from our values controller.
+2024-04-17 16:05:31.3452 DEBUG Here is debug message from our values controller.
+2024-04-17 16:05:31.3452 WARN Here is warn message from our values controller.
+2024-04-17 16:05:31.3452 ERROR Here is an error message from our values controller.
+2024-04-17 16:06:23.4168 ERROR Something went wrong: System.Exception: Exception
+   at CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies()
+   at lambda_method30(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-04-17 16:11:02.6938 ERROR Something went wrong: Entities.Exceptions.CompanyNotFoundException: The company with id: c9d4c053-49b6-410c-bc78-2d54a9991871 doesn't exist in the database.
+   at Service.CompanyService.GetCompany(Guid id, Boolean trackChanges) in D:\Workspace\dotnet-asp\CompanyEmployees\Service\CompanyService.cs:line 39
+   at CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompany(Guid id)
+   at lambda_method34(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-04-17 16:20:24.9581 INFO Here is info message from our values controller.
+2024-04-17 16:20:24.9700 DEBUG Here is debug message from our values controller.
+2024-04-17 16:20:24.9700 WARN Here is warn message from our values controller.
+2024-04-17 16:20:24.9700 ERROR Here is an error message from our values controller.
+2024-04-17 16:26:35.7413 INFO Here is info message from our values controller.
+2024-04-17 16:26:35.7667 DEBUG Here is debug message from our values controller.
+2024-04-17 16:26:35.7667 WARN Here is warn message from our values controller.
+2024-04-17 16:26:35.7667 ERROR Here is an error message from our values controller.
+2024-04-17 16:32:41.1620 INFO Here is info message from our values controller.
+2024-04-17 16:32:41.1749 DEBUG Here is debug message from our values controller.
+2024-04-17 16:32:41.1749 WARN Here is warn message from our values controller.
+2024-04-17 16:32:41.1749 ERROR Here is an error message from our values controller.
+2024-04-17 16:32:52.0147 ERROR Something went wrong: System.Runtime.Serialization.InvalidDataContractException: Type 'Shared.DataTransferObjects.CompanyDto' cannot be serialized. Consider marking it with the DataContractAttribute attribute, and marking all of its members you want serialized with the DataMemberAttribute attribute. Alternatively, you can ensure that the type is public and has a parameterless constructor - all public members of the type will then be serialized, and no attributes will be required.
+   at System.Runtime.Serialization.DataContracts.DataContract.DataContractCriticalHelper.ThrowInvalidDataContractException(String message, Type type)
+   at System.Runtime.Serialization.DataContracts.DataContract.DataContractCriticalHelper.CreateDataContract(Type type)
+   at System.Runtime.Serialization.DataContracts.DataContract.DataContractCriticalHelper.CreateDataContract(Int32 id, RuntimeTypeHandle typeHandle, Type type)
+   at System.Runtime.Serialization.DataContracts.DataContract.DataContractCriticalHelper.GetDataContractSkipValidation(Int32 id, RuntimeTypeHandle typeHandle, Type type)
+   at System.Runtime.Serialization.XmlObjectSerializerContext.GetDataContract(Int32 id, RuntimeTypeHandle typeHandle)
+   at System.Runtime.Serialization.XmlObjectSerializerWriteContext.InternalSerialize(XmlWriterDelegator xmlWriter, Object obj, Boolean isDeclaredType, Boolean writeXsiType, Int32 declaredTypeID, RuntimeTypeHandle declaredTypeHandle)
+   at WriteArrayOfCompanyDtoToXml(XmlWriterDelegator, Object, XmlObjectSerializerWriteContext, CollectionDataContract)
+   at System.Runtime.Serialization.DataContracts.CollectionDataContract.WriteXmlValue(XmlWriterDelegator xmlWriter, Object obj, XmlObjectSerializerWriteContext context)
+   at System.Runtime.Serialization.DataContractSerializer.InternalWriteObjectContent(XmlWriterDelegator writer, Object graph, DataContractResolver dataContractResolver)
+   at System.Runtime.Serialization.DataContractSerializer.InternalWriteObject(XmlWriterDelegator writer, Object graph, DataContractResolver dataContractResolver)
+   at System.Runtime.Serialization.XmlObjectSerializer.WriteObjectHandleExceptions(XmlWriterDelegator writer, Object graph, DataContractResolver dataContractResolver)
+   at Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-04-17 16:33:02.2810 ERROR Something went wrong: System.Runtime.Serialization.InvalidDataContractException: Type 'Shared.DataTransferObjects.CompanyDto' cannot be serialized. Consider marking it with the DataContractAttribute attribute, and marking all of its members you want serialized with the DataMemberAttribute attribute. Alternatively, you can ensure that the type is public and has a parameterless constructor - all public members of the type will then be serialized, and no attributes will be required.
+   at System.Runtime.Serialization.DataContracts.DataContract.DataContractCriticalHelper.ThrowInvalidDataContractException(String message, Type type)
+   at System.Runtime.Serialization.DataContracts.DataContract.DataContractCriticalHelper.CreateDataContract(Type type)
+   at System.Runtime.Serialization.DataContracts.DataContract.DataContractCriticalHelper.CreateDataContract(Int32 id, RuntimeTypeHandle typeHandle, Type type)
+   at System.Runtime.Serialization.DataContracts.DataContract.DataContractCriticalHelper.GetDataContractSkipValidation(Int32 id, RuntimeTypeHandle typeHandle, Type type)
+   at System.Runtime.Serialization.XmlObjectSerializerContext.GetDataContract(Int32 id, RuntimeTypeHandle typeHandle)
+   at System.Runtime.Serialization.XmlObjectSerializerWriteContext.InternalSerialize(XmlWriterDelegator xmlWriter, Object obj, Boolean isDeclaredType, Boolean writeXsiType, Int32 declaredTypeID, RuntimeTypeHandle declaredTypeHandle)
+   at WriteArrayOfCompanyDtoToXml(XmlWriterDelegator, Object, XmlObjectSerializerWriteContext, CollectionDataContract)
+   at System.Runtime.Serialization.DataContracts.CollectionDataContract.WriteXmlValue(XmlWriterDelegator xmlWriter, Object obj, XmlObjectSerializerWriteContext context)
+   at System.Runtime.Serialization.DataContractSerializer.InternalWriteObjectContent(XmlWriterDelegator writer, Object graph, DataContractResolver dataContractResolver)
+   at System.Runtime.Serialization.DataContractSerializer.InternalWriteObject(XmlWriterDelegator writer, Object graph, DataContractResolver dataContractResolver)
+   at System.Runtime.Serialization.XmlObjectSerializer.WriteObjectHandleExceptions(XmlWriterDelegator writer, Object graph, DataContractResolver dataContractResolver)
+   at Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-04-17 16:34:46.9116 INFO Here is info message from our values controller.
+2024-04-17 16:34:46.9245 DEBUG Here is debug message from our values controller.
+2024-04-17 16:34:46.9245 WARN Here is warn message from our values controller.
+2024-04-17 16:34:46.9245 ERROR Here is an error message from our values controller.
+2024-04-17 16:37:15.2720 INFO Here is info message from our values controller.
+2024-04-17 16:37:15.2836 DEBUG Here is debug message from our values controller.
+2024-04-17 16:37:15.2836 WARN Here is warn message from our values controller.
+2024-04-17 16:37:15.2836 ERROR Here is an error message from our values controller.
+2024-04-17 16:37:36.0329 INFO Here is info message from our values controller.
+2024-04-17 16:37:36.0480 DEBUG Here is debug message from our values controller.
+2024-04-17 16:37:36.0480 WARN Here is warn message from our values controller.
+2024-04-17 16:37:36.0480 ERROR Here is an error message from our values controller.
+2024-04-17 16:38:55.4864 INFO Here is info message from our values controller.
+2024-04-17 16:38:55.5012 DEBUG Here is debug message from our values controller.
+2024-04-17 16:38:55.5012 WARN Here is warn message from our values controller.
+2024-04-17 16:38:55.5012 ERROR Here is an error message from our values controller.
+2024-04-17 16:40:44.9240 INFO Here is info message from our values controller.
+2024-04-17 16:40:44.9379 DEBUG Here is debug message from our values controller.
+2024-04-17 16:40:44.9379 WARN Here is warn message from our values controller.
+2024-04-17 16:40:44.9379 ERROR Here is an error message from our values controller.
+2024-04-17 16:53:39.4164 INFO Here is info message from our values controller.
+2024-04-17 16:53:39.4373 DEBUG Here is debug message from our values controller.
+2024-04-17 16:53:39.4373 WARN Here is warn message from our values controller.
+2024-04-17 16:53:39.4373 ERROR Here is an error message from our values controller.
+2024-04-17 17:00:38.2824 INFO Here is info message from our values controller.
+2024-04-17 17:00:38.2964 DEBUG Here is debug message from our values controller.
+2024-04-17 17:00:38.2964 WARN Here is warn message from our values controller.
+2024-04-17 17:00:38.2964 ERROR Here is an error message from our values controller.
+2024-04-17 17:01:19.0381 INFO Here is info message from our values controller.
+2024-04-17 17:01:19.0503 DEBUG Here is debug message from our values controller.
+2024-04-17 17:01:19.0503 WARN Here is warn message from our values controller.
+2024-04-17 17:01:19.0503 ERROR Here is an error message from our values controller.
+2024-04-17 17:13:20.5944 INFO Here is info message from our values controller.
+2024-04-17 17:13:20.6137 DEBUG Here is debug message from our values controller.
+2024-04-17 17:13:20.6250 WARN Here is warn message from our values controller.
+2024-04-17 17:13:20.6250 ERROR Here is an error message from our values controller.
+2024-04-17 17:52:39.8650 INFO Here is info message from our values controller.
+2024-04-17 17:52:39.8768 DEBUG Here is debug message from our values controller.
+2024-04-17 17:52:39.8768 WARN Here is warn message from our values controller.
+2024-04-17 17:52:39.8768 ERROR Here is an error message from our values controller.
+2024-04-17 18:08:12.6631 INFO Here is info message from our values controller.
+2024-04-17 18:08:12.6918 DEBUG Here is debug message from our values controller.
+2024-04-17 18:08:12.6918 WARN Here is warn message from our values controller.
+2024-04-17 18:08:12.6918 ERROR Here is an error message from our values controller.
+2024-04-17 18:08:35.7215 ERROR Something went wrong: Entities.Exceptions.EmployeeNotFoundException: Employee with id: 021ca3c1-0deb-4afd-ae94-2159a8479812 doesn't exist in the database.
+   at Service.EmployeeService.DeleteEmployeeForCompany(Guid companyId, Guid id, Boolean trackChanges) in D:\Workspace\dotnet-asp\CompanyEmployees\Service\EmployeeService.cs:line 87
+   at CompanyEmployees.Presentation.Controllers.EmployeesController.DeleteEmployeeForCompany(Guid companyId, Guid id) in D:\Workspace\dotnet-asp\CompanyEmployees\CompanyEmployees.Presentation\Controllers\EmployeesController.cs:line 53
+   at lambda_method37(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-04-17 18:08:56.2277 ERROR Something went wrong: Entities.Exceptions.EmployeeNotFoundException: Employee with id: 021ca3c1-0deb-4afd-ae94-2159a8479811 doesn't exist in the database.
+   at Service.EmployeeService.GetEmployee(Guid companyId, Guid id, Boolean trackChanges) in D:\Workspace\dotnet-asp\CompanyEmployees\Service\EmployeeService.cs:line 52
+   at CompanyEmployees.Presentation.Controllers.EmployeesController.GetEmployeeForCompany(Guid companyId, Guid id) in D:\Workspace\dotnet-asp\CompanyEmployees\CompanyEmployees.Presentation\Controllers\EmployeesController.cs:line 30
+   at lambda_method32(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-04-17 18:19:37.0645 INFO Here is info message from our values controller.
+2024-04-17 18:19:37.0810 DEBUG Here is debug message from our values controller.
+2024-04-17 18:19:37.0810 WARN Here is warn message from our values controller.
+2024-04-17 18:19:37.0810 ERROR Here is an error message from our values controller.
+2024-04-17 18:20:05.0723 ERROR Something went wrong: Entities.Exceptions.CompanyNotFoundException: The company with id: b6bf0d3a-6dc1-46ab-605b-08dc5ec70693 doesn't exist in the database.
+   at Service.EmployeeService.GetEmployee(Guid companyId, Guid id, Boolean trackChanges) in D:\Workspace\dotnet-asp\CompanyEmployees\Service\EmployeeService.cs:line 47
+   at CompanyEmployees.Presentation.Controllers.EmployeesController.GetEmployeeForCompany(Guid companyId, Guid id) in D:\Workspace\dotnet-asp\CompanyEmployees\CompanyEmployees.Presentation\Controllers\EmployeesController.cs:line 30
+   at lambda_method32(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-04-17 22:47:52.7589 INFO Here is info message from our values controller.
+2024-04-17 22:47:52.7914 DEBUG Here is debug message from our values controller.
+2024-04-17 22:47:52.7914 WARN Here is warn message from our values controller.
+2024-04-17 22:47:52.7914 ERROR Here is an error message from our values controller.
